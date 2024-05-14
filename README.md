@@ -19,20 +19,24 @@ Follow these steps to set up the project:
    npm init -y
 
  2. Add Dependencies
-     npm install prisma typescript ts-node @types/node --save-dev
+
+         .npm install prisma typescript ts-node @types/node --save-dev
     
  3.Initialize TypeScript
-     npx tsc --init
-   .Change rootDir to src.
+ 
+    . npx tsc --init
+    
+    .Change rootDir to src.
     .Change outDir to dist.
 
 4.Initialize a fresh Prisma project:
-    npx prisma init
+    
+    .npx prisma init
 
 Usage
 To run the app, use the following command:
 
-npm start
+    .npm start
 
 
   
